@@ -61,7 +61,7 @@ This document outlines the key issues identified in production to inform the tea
 
 ----------
 
-## 4. Create Issue Error When Disabling Automated Due Date
+## 4. [Frontend] Create Issue Error When Disabling Automated Due Date
 
 ![create-issue-error-when-disable-automated-due-date](https://github.com/user-attachments/assets/4ed85b3f-f6e2-4049-8594-07fad1e2c570)
 
@@ -72,6 +72,9 @@ This document outlines the key issues identified in production to inform the tea
 ### Potential Impact:
 
 -   Users may be unable to create issues without enabling automated due dates, affecting workflows.
+
+### Suggested Solution
+- Initiate automated_due_date state with (**false**) value.
 
 ----------
 
